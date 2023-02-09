@@ -1,0 +1,7 @@
+{
+  "name": "Projeto-Ajuda-Me-Mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
