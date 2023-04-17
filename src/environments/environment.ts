@@ -3,7 +3,19 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  apiUrl: 'https://thronesapi.com/api/v2/',
+  authorizationUrl: 'https://18.204.51.112:9443/api/identity/entitlement/decision',
+  aapName: 'App Ionic - Game throne',
+  sso: {
+    clientId: 'OQYIEGDzJN7pRQS7JOkmWSTJX3ka',
+    serverUrl: 'https://18.204.51.112:9443',
+    issuer: '/oauth2/oidcdiscovery',
+    redirectUri: window.location.origin,
+    scope: 'openid email profile',
+    showDebugInformation: true,
+    responseType: 'code',
+  }
 };
 
 /*
